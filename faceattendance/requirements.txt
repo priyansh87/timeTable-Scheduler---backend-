@@ -1,0 +1,25 @@
+# Already installed packages (matching your versions)
+numpy==1.26.4
+opencv-python==4.8.0.76
+pillow==12.0.0
+requests==2.32.5
+face-recognition==1.3.0
+cmake
+dlib==19.24.99
+
+# New packages needed for FastAPI backend
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+motor==3.7.0
+pymongo==4.10.1
+pydantic==2.10.6
+python-multipart==0.0.20
+
+# New packages needed for Streamlit frontend
+streamlit==1.41.1
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+
+# Additional utilities
+altair==5.5.0  # For Streamlit charts
+watchdog==6.0.0  # For Streamlit auto-reload
